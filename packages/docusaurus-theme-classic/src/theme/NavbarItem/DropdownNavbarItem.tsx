@@ -158,6 +158,7 @@ function DropdownNavbarItemMobile({
           'menu__link menu__link--sublist menu__link--sublist-caret',
           className,
         )}
+        href={props.to ? undefined : '#'}
         {...props}
         onClick={(e) => {
           e.preventDefault();
